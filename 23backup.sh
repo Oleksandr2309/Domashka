@@ -1,5 +1,8 @@
 #!/bin/bash
-#this script checks every minute if a backup is made, if not, it #creates a folder with files, if a folder exists, it does nothing. #checks if files exist, if not, restores them from the backup #folder. If there is only one file, only it will be restored.
+#this script checks every minute if a backup is made, if not, it 
+#creates a folder with files, if a folder exists, it does nothing. 
+#checks if files exist, if not exist - restores them from the backup 
+#folder. If there is only one file, only it will be restored.
 
 if [ ! -d /home/oleksandt/backup ]
 then mkdir /home/oleksandr/backup
